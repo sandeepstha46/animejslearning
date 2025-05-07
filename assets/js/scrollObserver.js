@@ -9,14 +9,17 @@ anime.animate('.square', {
     duration: 2000,
     alternate: true,
     loop: true,
-    autoplay: onScroll({ container, debug })
+    autoplay: onScroll({
+        container,
+        sync: true,
+        debug })
 });
 
 // Timer
 
 const $timer = document.querySelector('.timer');
 
-anime.createTimer({
+anime.createTimer( $timer, {
     duration: 2000,
     alternate: true,
     loop: true,
@@ -25,7 +28,8 @@ anime.createTimer({
     },
     autoplay: onScroll({
         target: $timer.parentNode,
-        container,
+        container: '.timer-container',
+        sync: true,
         debug
     })
 });
@@ -34,12 +38,13 @@ anime.createTimer({
 
 const circles = document.querySelectorAll('.circle');
 
-anime.createTimeline({
+anime.createTimeline( {
     alternate: true,
     loop: true,
     autoplay: onScroll({
         target: circles[0],
-        container,
+        container: '.circle-container',
+        sync: true,
         debug
     })
 })

@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83fdb20a-1742-499b-8968-511f422687e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/helloworldAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/helloworldAnimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/squarerotateAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/squarerotateAnimation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/scrollObserver.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/scrollObserver.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/timerAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/timerAnimation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -68,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746603213814</updated>
-      <workItem from="1746603214897" duration="7988000" />
+      <workItem from="1746603214897" duration="9699000" />
     </task>
     <servers />
   </component>
