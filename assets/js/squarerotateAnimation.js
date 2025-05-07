@@ -1,7 +1,7 @@
 anime.waapi.animate('.waapi.square', {
     x: '17rem',
     rotate: 180,
-    loop: true,
+    loop: 3,
     alternate: true,
 });
 
@@ -13,7 +13,7 @@ const $log = document.querySelector('code');
 anime.animate(data, {
     x: 17,
     rotate: 180,
-    loop: true,
+    loop: 3,
     alternate: true,
     onRender: () => $log.innerHTML = JSON.stringify(data)
 });

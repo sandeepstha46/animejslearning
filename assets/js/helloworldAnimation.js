@@ -1,5 +1,5 @@
 
-const $span = document.querySelector('.span-tag');
+const $span = document.querySelectorAll('.span-tag');
 
 console.log($span);
 
@@ -7,7 +7,7 @@ console.log($span);
 anime.animate($span, {
     // Property keyframes
     y: [
-        { to: '-2.75rem', ease: 'outExpo', duration: 600 },
+        { to: '-1.75rem', ease: 'outExpo', duration: 600 },
         { to: 0, ease: 'outBounce', duration: 800, delay: 100 }
     ],
 
