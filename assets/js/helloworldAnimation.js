@@ -1,5 +1,5 @@
 
-const $span = document.getElementsByTagName('span');
+const $span = document.querySelector('.span-tag');
 
 console.log($span);
 

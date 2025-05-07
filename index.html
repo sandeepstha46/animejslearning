@@ -4,37 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anime Js</title>
+
+      <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
+
+  <article class="docs-demo theme-color theme-color-1 is-active" data-id="timer">
+      <header class="docs-demo-header">
+          <h2 class="text-ui">
+              Timer      <!-- <span title="Is new in V4" class="badge">V4</span> -->
+          </h2>
+      </header>
+      <div id="timer" class="docs-demo-content">
+          <div class="docs-demo-html docs-demo-live demo">
+              <div class="large centered row">
+                  <div class="half col">
+                        <pre class="large log row">      <span class="label">current time</span>
+                          <span class="value lcd">0</span>
+                        </pre>
+                  </div>
+                  <div class="half col">
+                    <pre class="large log row">      <span class="label">callback fired</span>
+                      <span class="count value lcd">0</span>
+                    </pre>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </article>
 
 
     <h3>Timer Animation</h3>
 
-      <div>
-        <p class="label">current time:</p>
-        <p class="value lcd">0</p>
-      </div>
-      <div>
-        <p class="label">callback fired:</p>
-        <p class="count lcd">0</p>
-      </div>
+
+    <div class="large centered row">
+        <div class="half col">
+    <pre class="large log row">
+      <span class="label">current time</span>
+      <span class="value lcd">0</span>
+    </pre>
+        </div>
+        <div class="half col">
+    <pre class="large log row">
+      <span class="label">callback fired</span>
+      <span class="count lcd">0</span>
+    </pre>
+        </div>
+    </div>
 
   <hr>
 
    <h3>Word animation</h3>
 
     <h2 class="large grid centered square-grid text-xl" style="width: 200px; height: 100px; padding: 16px; display: flex; justify-content: center; align-items: center;">
-        <span>H</span>
-        <span>E</span>
-        <span>L</span>
-        <span>L</span>
-        <span>O</span>
-        <span>&nbsp;</span>
-        <span>W</span>
-        <span>O</span>
-        <span>R</span>
-        <span>L</span>
-        <span>D</span>
+        <span class="span-tag">H</span>
+        <span class="span-tag">E</span>
+        <span class="span-tag">L</span>
+        <span class="span-tag">L</span>
+        <span class="span-tag">O</span>
+        <span class="span-tag">&nbsp;</span>
+        <span class="span-tag">W</span>
+        <span class="span-tag">O</span>
+        <span class="span-tag">R</span>
+        <span class="span-tag">L</span>
+        <span class="span-tag">D</span>
     </h2>
 
   <hr>
@@ -51,9 +84,42 @@
 
   <hr>
 
+  <h3>Scroll Observer</h3>
+
+    <div class="scroll-container scroll-y" style="height: 200px;">
+        <div class="scroll-content grid square-grid">
+            <div class="scroll-section padded">
+                <div class="large centered row">
+                    <div class="label">scroll down</div>
+                </div>
+            </div>
+            <div class="scroll-section padded">
+                <div class="large row">
+                    <div class="square"></div>
+                </div>
+            </div>
+            <div class="scroll-section padded">
+                <div class="large centered row">
+        <pre class="large log row">
+          <span class="label">timer</span>
+          <span class="timer value lcd">0</span>
+        </pre>
+                </div>
+            </div>
+            <div class="scroll-section padded">
+                <div class="large row">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
   </body>
   <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
   <script src="./assets/js/timerAnimation.js"></script>
     <script src="./assets/js/helloworldAnimation.js"></script>
     <script src="./assets/js/squarerotateAnimation.js"></script>
+    <script src="./assets/js/scrollObserver.js"></script>
 </html>
